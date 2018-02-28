@@ -1,3 +1,4 @@
+Going through the course and attempting to make own implementations of the codes.
 ## Progress
 
 - [x] 01 - What Is Java?

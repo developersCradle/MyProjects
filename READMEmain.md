@@ -13,5 +13,4 @@ Learning by doing projects
 
 ## Game
 
-[//]: # "[Unity](https://github.com/usunyu/MyProjects/tree/master/Unity):"
 * Add here stuff about game
