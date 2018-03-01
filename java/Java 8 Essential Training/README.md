@@ -4,7 +4,7 @@ Going through the course and attempting to make own implementations of the codes
 ## Progress
 
 - [x] 01 - What Is Java?
-- [ ] 02 - Installing the Software
+- [x] 02 - Installing the Software
 - [ ] 03 - Getting Started
 - [ ] 04 - Working with Variables
 - [ ] 05 - Working with objects
