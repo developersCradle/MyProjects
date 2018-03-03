@@ -1,4 +1,4 @@
-package com.example.java; // reverse domain notation
+package chapter3.com.example.java; // reverse domain notation
 
 public class Main
 {
