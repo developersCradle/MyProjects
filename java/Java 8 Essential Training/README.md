@@ -7,7 +7,7 @@ Going through the course and attempting to make own implementations of the codes
 - [x] 02 - Installing the Software
 - [x] 03 - Getting Started
 - [x] 04 - Working with Variables
-- [ ] 05 - Working with objects
+- [x] 05 - Working with objects
 - [ ] 06 - Exception Handling and Debugging
 - [ ] 07 - Managing Program Flow
 - [ ] 08 - Using Data Collections
