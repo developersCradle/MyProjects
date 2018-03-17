@@ -8,9 +8,9 @@ Going through the course and attempting to make own implementations of the codes
 - [x] 03 - Getting Started
 - [x] 04 - Working with Variables
 - [x] 05 - Working with objects
-- [ ] 06 - Exception Handling and Debugging
-- [ ] 07 - Managing Program Flow
-- [ ] 08 - Using Data Collections
+- [x] 06 - Exception Handling and Debugging
+- [x] 07 - Managing Program Flow
+- [x] 08 - Using Data Collections
 - [ ] 09 - Creating Custom Classes
 - [ ] 10 - Working with Inheritance
 - [ ] 11 - Using Common Java Libraries
