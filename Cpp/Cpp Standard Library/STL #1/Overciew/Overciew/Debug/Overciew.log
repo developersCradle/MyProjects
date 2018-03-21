@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Overciew.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Overview.cpp
+  Overciew.vcxproj -> C:\Users\Heka\Desktop\MyProjects\MyProjects\Cpp\Cpp Standard Library\STL #1\Overciew\Debug\Overview.exe

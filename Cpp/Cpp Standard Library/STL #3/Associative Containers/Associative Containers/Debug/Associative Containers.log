@@ -1,0 +1,6 @@
+﻿  Associative Containers.cpp
+c:\users\heka\desktop\kuvakkeet\projektit\bo qian\c++ standard library\koodit\stl #3\associative containers\associative containers\associative containers.cpp(58): error C2676: binary '[': 'std::set<int,std::less<_Kty>,std::allocator<_Kty>>' does not define this operator or a conversion to a type acceptable to the predefined operator
+          with
+          [
+              _Kty=int
+          ]
