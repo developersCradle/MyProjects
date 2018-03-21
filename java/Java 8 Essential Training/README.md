@@ -1,4 +1,4 @@
-Going through the course and attempting to make own implementations of the codes.
+Going through the course and attempting to make own implementations of the codes with notes.
 ![Image of Java](https://blog.gypsyengineer.com/wp-content/uploads/2016/08/java_logo.png)
 
 ## Progress

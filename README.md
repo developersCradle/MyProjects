@@ -10,7 +10,7 @@ Learning by doing projects
 
 * Beginner Java Game Develpoment [[Youtube](https://www.youtube.com/watch?v=fqdgrFuFZqU&list=PLWms45O3n--4t1cUhKrqgOLeHE_sRtr0S)]
 
-[Cpp](https://github.com/developersCradle/MyProjects/tree/master/cpp):
+[Cpp](https://github.com/developersCradle/MyProjects/tree/master/Cpp/Cpp%20Standard%20Library):
 
 * C++ Standard Library with Bo Qian [[Youtube](https://www.youtube.com/watch?v=Vc1RyqWFbiA&list=PL5jc9xFGsL8G3y3ywuFSvOuNm3GjBwdkb)]
 

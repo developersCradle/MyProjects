@@ -9,3 +9,5 @@ This is is my own implementation with notes.
 - [] 02 - STL Algorithms - 1-4 parts
 - [] 03 - C++ Strings - 1-5 parts
 - [] 04 - C++ Stream - 1-7 parts
+
+- (todo fix .gitignore)
