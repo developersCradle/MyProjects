@@ -1,4 +1,4 @@
-#The Web Developer Bootcamp
+##The Web Developer Bootcamp
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.
 
 ## Progress
@@ -21,9 +21,13 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 
 
 
-*   [Slides](https://webdev.slides.com/coltsteele/)
 
 
 ## The Major Projects
-*Section 03 Exercises
-  *[1_Exercise]()
+* Section 03 Exercises
+    * [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20bootcamp/03%20Introduction%20to%20HTML/1_Exercise.html)
+    * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20bootcamp/03%20Introduction%20to%20HTML/2_Exercise.html)
+
+    
+## Files
+*   [Slides](https://webdev.slides.com/coltsteele/)
