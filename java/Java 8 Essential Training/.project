@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>bin/README.md</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/WebDevBootcamp/Web%20Developer%20bootcamp/README.md</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
