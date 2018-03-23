@@ -1,4 +1,5 @@
-##The Web Developer Bootcamp
+## The Web Developer Bootcamp
+
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.
 
 ## Progress
