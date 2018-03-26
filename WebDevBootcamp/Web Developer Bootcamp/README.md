@@ -28,6 +28,10 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 * Section 03 Exercises
     * [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20bootcamp/03%20Introduction%20to%20HTML/1_Exercise.html)
     * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20bootcamp/03%20Introduction%20to%20HTML/2_Exercise.html)
+    
+ * Section 04 Exercises
+    * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/6f1162c0/WebDevBootcamp/Web%20Developer%20Bootcamp/04%20Intermediate%20HTML/Exercise_1.html)
+    * [2_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/6f1162c0/WebDevBootcamp/Web%20Developer%20Bootcamp/04%20Intermediate%20HTML/Exercise_2.html)
 
     
 ## Files
