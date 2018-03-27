@@ -17,7 +17,13 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 - [ ] 11 - Javascript Basics Arrays
 - [ ] 12 - Javascript Basics Objects
 - [ ] 13 - DOM Manipulation
-- [ ] 15 - Advanced DOM Manipulation
+- [ ] 14 - Advanced DOM Manipulation
+- [ ] 15 - Color Game Project
+- [ ] 16 - Intro to jQuery
+- [ ] 17 - Advanced jQuery
+- [ ] 18 - Todo List Projects
+- [ ] 19 - Project Patatap Clone
+
 - (update more)
 
 
