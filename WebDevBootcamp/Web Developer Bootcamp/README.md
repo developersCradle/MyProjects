@@ -8,7 +8,7 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 - [x] 02 - Introduction to Front End Development
 - [x] 03 - Introduction to HTML
 - [x] 04 - Intermediate HTML
-- [ ] 05 - Introduction to CSS
+- [x] 05 - Introduction to CSS
 - [ ] 06 - Intermediate CSS
 - [ ] 07 - Bootstrap
 - [ ] 08 - Introduction to JavaScript
