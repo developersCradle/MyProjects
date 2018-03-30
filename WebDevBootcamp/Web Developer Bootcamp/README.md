@@ -41,6 +41,8 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 
 * Section 05 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/c03b65ca/WebDevBootcamp/Web%20Developer%20Bootcamp/05%20Introduction%20to%20CSS/selectorsExercise.html)
+* Section 06 Exercises
+    * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
 
     
 ## Files
