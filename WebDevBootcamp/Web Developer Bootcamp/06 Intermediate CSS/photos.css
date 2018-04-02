@@ -7,12 +7,14 @@ img{
 	margin: 1.66%;
 	
 
-	/*https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css */
+	/* kuvien skaalaus, (todo)palaa tähän kun osaat luoda toiminnon jolla avataan kuva isommaksi.
+	https://stackoverflow.com/questions/19414856/how-can-i-make-all-images-of-different-height-and-width-the-same-via-css 
 	height: 300px;
 	position: relative;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+    */
 } 
 
 p{
