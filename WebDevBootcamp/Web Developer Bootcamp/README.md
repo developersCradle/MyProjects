@@ -1,6 +1,7 @@
 ## The Web Developer Bootcamp
 
-Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.
+Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
+Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 ## Progress
 
@@ -9,7 +10,7 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 - [x] 03 - Introduction to HTML
 - [x] 04 - Intermediate HTML
 - [x] 05 - Introduction to CSS
-- [ ] 06 - Intermediate CSS
+- [x] 06 - Intermediate CSS
 - [ ] 07 - Bootstrap
 - [ ] 08 - Introduction to JavaScript
 - [ ] 09 - Javascript Basics Control Flow
@@ -43,7 +44,8 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/c03b65ca/WebDevBootcamp/Web%20Developer%20Bootcamp/05%20Introduction%20to%20CSS/selectorsExercise.html)
 * Section 06 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
-    * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/photoGrid.html) **<-- Small milestone**
+    * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery**
+    * [3_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/photoGrid.html) **<-- Simple blog**
 
     
 ## Files
