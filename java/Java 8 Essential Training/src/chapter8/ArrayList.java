@@ -8,8 +8,10 @@ public class ArrayList {
 	public static void main(String[] args) 
 	{
 		
-		//Inside <> must be instance of the class. Example if integer use List<Insteger> not the primitive int itself
+		//Inside <> must be instance of the class. Example if integer -> use List<Insteger> not the primitive int itself
 		List<String> list = new java.util.ArrayList<>(); //<> Diamond operator, generic notation
+														 //Using constructor for ArrayList class, not for list interface!
+		//ArrayList contains an ORDERED collection of data, resizable-array
 		list.add("California");
 		list.add("Orogon");
 		list.add("Washington");

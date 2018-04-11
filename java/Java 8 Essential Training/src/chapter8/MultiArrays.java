@@ -4,7 +4,7 @@ public class MultiArrays {
 
 	public static void main(String[] args)
 	{
-		String[][] states = new String[3][2];
+		String[][] states = new String[3][2]; //2-dim array
 		states[0][0] = "California";
 		states[0][1] = "Sacramento";
 		states[1][0] = "Oregon";
