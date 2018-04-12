@@ -11,7 +11,7 @@ Going through the course and attempting to make own implementations of the codes
 - [x] 06 - Exception Handling and Debugging
 - [x] 07 - Managing Program Flow
 - [x] 08 - Using Data Collections
-- [ ] 09 - Creating Custom Classes
+- [x] 09 - Creating Custom Classes
 - [ ] 10 - Working with Inheritance
 - [ ] 11 - Using Common Java Libraries
 - [ ] 12 - Preparing a Java Application for Deployment
