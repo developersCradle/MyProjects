@@ -13,5 +13,5 @@ Going through the course and attempting to make own implementations of the codes
 - [x] 08 - Using Data Collections
 - [x] 09 - Creating Custom Classes
 - [x] 10 - Working with Inheritance
-- [ ] 11 - Using Common Java Libraries
-- [ ] 12 - Preparing a Java Application for Deployment
+- [x] 11 - Using Common Java Libraries
+- [x] 12 - Preparing a Java Application for Deployment
