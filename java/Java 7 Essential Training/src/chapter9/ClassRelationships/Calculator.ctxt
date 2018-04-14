@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Calculator
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-comment1.text=\r\n\ No\ explicit\ constructor\ ->\ Java\ compiler\ creates\ \ no\ argument\ constructor\r\n
-comment2.params=
-comment2.target=void\ calculate()
-numComments=3
