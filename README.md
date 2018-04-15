@@ -5,8 +5,8 @@ Learning by doing projects
 
 ## Language
 
-[Java](https://github.com/developersCradle/MyProjects/tree/master/java):
-* Java 7 Essential Training [[Lynda](https://www.lynda.com/Java-tutorials/Java-Essential-Training/377484-2.html?srchtrk=index%3a4%0alinktypeid%3a2%0aq%3ajava+essential%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2) / [Linkedin](https://www.linkedin.com/learning/java-8-essential-training/next-steps)]
+[Java](https://github.com/developersCradle/MyProjects/tree/master/Java):
+* Become a Java Programmer ~ Learning Path [[Lynda](https://www.lynda.com/learning-paths/Developer/become-a-java-programmer) / [Linkedin](https://www.linkedin.com/learning/paths/become-a-java-programmer)]
 
 * Beginner Java Game Develpoment [[Youtube](https://www.youtube.com/watch?v=fqdgrFuFZqU&list=PLWms45O3n--4t1cUhKrqgOLeHE_sRtr0S)]
 

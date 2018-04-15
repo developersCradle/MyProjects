@@ -23,6 +23,7 @@ public class Main {
         olives.add(new Ligurian());
         olives.add(new Ligurian());
         
+        
         //It is a instance of press interface
         Press press = new OlivePress();//We trust OliverPress class to implement needs of interface -> providing code for setOuil() and getOil()
         press.setOil(5); //we calling setOil from press interface(interface does not know about  setOil())
