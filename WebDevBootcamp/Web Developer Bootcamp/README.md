@@ -42,10 +42,14 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 * Section 05 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/c03b65ca/WebDevBootcamp/Web%20Developer%20Bootcamp/05%20Introduction%20to%20CSS/selectorsExercise.html)
+
 * Section 06 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
     * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add oppening of image)
     * [3_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/blog.html) **<-- Simple blog**
+
+* Section 07 Exercises
+	* [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
 
     
 ## Files
