@@ -11,7 +11,7 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 - [x] 04 - Intermediate HTML
 - [x] 05 - Introduction to CSS
 - [x] 06 - Intermediate CSS
-- [ ] 07 - Bootstrap
+- [x] 07 - Bootstrap
 - [ ] 08 - Introduction to JavaScript
 - [ ] 09 - Javascript Basics Control Flow
 - [ ] 10 - Javascript Basics Functions
@@ -50,6 +50,8 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 * Section 07 Exercises
 	* [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
+	* [2_Exercise](#) **<-- Startup page with Bootstrap**
+
 
     
 ## Files
