@@ -50,7 +50,7 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 * Section 07 Exercises
 	* [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
-	* [2_Exercise](#) **<-- Startup page with Bootstrap**
+	* [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/index.html) **<-- Startup page with Bootstrap**
 
 
     
