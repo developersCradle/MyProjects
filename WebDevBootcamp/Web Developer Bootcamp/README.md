@@ -24,6 +24,27 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 - [ ] 17 - Advanced jQuery
 - [ ] 18 - Todo List Projects
 - [ ] 19 - Project Patatap Clone
+- [ ] 20 - Backend Basics
+- [ ] 21 - The Command Line
+- [ ] 22 - Update this one!
+- [ ] 23 - Update this one!
+- [ ] 24 - Update this one!
+- [ ] 25 - Update this one!
+- [ ] 26 - Update this one!
+- [ ] 27 - Update this one!
+- [ ] 28 - Update this one!
+- [ ] 29 - Update this one!
+- [ ] 30 - Update this one!
+- [ ] 31 - Update this one!
+- [ ] 32 - Update this one!
+- [ ] 33 - Update this one!
+- [ ] 34 - Update this one!
+- [ ] 35 - Update this one!
+- [ ] 36 - Update this one!
+- [ ] 37 - Update this one!
+- [ ] 38 - Update this one!
+- [ ] 39 - Update this one!
+
 
 - (update more)
 
