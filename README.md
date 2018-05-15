@@ -8,7 +8,6 @@ Learning by doing projects
 [Java](https://github.com/developersCradle/MyProjects/tree/master/Java):
 * Become a Java Programmer ~ Learning Path [[Lynda](https://www.lynda.com/learning-paths/Developer/become-a-java-programmer) / [Linkedin](https://www.linkedin.com/learning/paths/become-a-java-programmer)]
 
-* Beginner Java Game Develpoment [[Youtube](https://www.youtube.com/watch?v=fqdgrFuFZqU&list=PLWms45O3n--4t1cUhKrqgOLeHE_sRtr0S)]
 
 [Cpp](https://github.com/developersCradle/MyProjects/tree/master/Cpp):
 
