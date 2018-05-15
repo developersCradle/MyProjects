@@ -16,12 +16,27 @@
 		<div class="container">
 
 			<div class="navbar-header">
+				<!-- Hamburger icon is spesified here -->
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+					<!-- data-target= what data is collapsed, need to use #nameOfTheData-->
+					<!-- data-target=# also spefies show/hidden of data when we have click event-->
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<!-- Spans are making of the "hamburger" image --> 
+				</button>
+				<!-- end of Hamburger -->
 				<a class="navbar-brand" href="#">KAHAVIII!</a>
 			</div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<!--  inside this div, what will be collapsed if we hit moble size. Here we spesify what data will be inside of "Hamburger"-->
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+
 				<ul class="nav navbar-nav">
-					<li><a href="#">About</a></li>
+
 					<li><a href="#">Contact</a></li>
+					<li><a href="#">About</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -30,6 +45,7 @@
 				</ul>
 			</div>
 		</div>
+		<!-- We want to hide to this-->
 	</nav>
 
 	<nav class="navbar navbar-default">
@@ -59,7 +75,7 @@
 							<li role="separator" class="divider"></li>
 							<li><a href="#">Separated link</a></li>
 							<li role="separator" class="divider"></li>
-							<li><a href="#">One more separated link</a></li>
+							<li><a href="#">One more separated link</a></li> 
 						</ul>
 					</li>
 				</ul>

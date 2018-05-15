@@ -4,7 +4,7 @@ Going through the course and attempting to make own implementations of the codes
 <br>
 ![Image of Java](https://blog.gypsyengineer.com/wp-content/uploads/2016/08/java_logo.png)
 
-## Progress
+##Progress
 
 - [x] 01 - What Is Java?
 - [x] 02 - Installing the Software
