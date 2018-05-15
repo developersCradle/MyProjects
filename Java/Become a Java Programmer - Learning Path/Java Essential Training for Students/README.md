@@ -6,10 +6,11 @@ Going through the course and attempting to make own implementations of the codes
 
 ## Progress
 
+- [x] 00 - Introduction
 - [x] 01 - Command Level Programming
 - [x] 02 - Basics Review
-- [ ] 03 - Debugging
-- [ ] 04 - Java API
+- [x] 03 - Debugging
+- [x] 04 - Java API
 - [ ] 05 - Simulations and Algorithm Analysis
 - [ ] 06 - Classes and Objects
 - [ ] 07 - More on Classes

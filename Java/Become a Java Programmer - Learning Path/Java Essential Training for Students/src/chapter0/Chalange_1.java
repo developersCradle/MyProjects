@@ -1,3 +1,4 @@
+package chapter0;
 import java.util.Scanner;
 
 public class Chalange_1
