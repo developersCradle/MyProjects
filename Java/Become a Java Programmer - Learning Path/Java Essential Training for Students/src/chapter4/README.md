@@ -1,5 +1,5 @@
-#Notes
-
+Notes
+-----
 Manifest file contains Main Method. <br>
 Main-Class: Geometry
 and ´space´ here!
