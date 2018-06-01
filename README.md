@@ -18,6 +18,10 @@ Learning by doing projects
 
 * The Web Developer Bootcamp with Colt [[Udemy](https://www.udemy.com/the-web-developer-bootcamp/)]
 
+[GWT](#):
+
+* GWT app: StockWatcher [[Gwtproject](http://www.gwtproject.org/doc/latest/tutorial/gettingstarted.html)]
+
 ## Graphic
 * Add here stuff about graphics like OpenGL and DirectX
 
