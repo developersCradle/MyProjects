@@ -4,7 +4,11 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.FlexTable;
+import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -26,73 +30,33 @@ public class StockWatcher implements EntryPoint {
 	/**
 	 * This is the entry point method.
 	 */
+	private HorizontalPanel addPanel = new HorizontalPanel();
+	private VerticalPanel mainPanel = new VerticalPanel();
+	private FlexTable stocksFlexTable = new FlexTable();
+	private TextBox newSymbolTextBox = new TextBox();
+	private Button addStockButton = new Button("Add");
+	private Label lastUpdatedLabel = new Label();
+
 	public void onModuleLoad() {
-		/*
-		final Button sendButton = new Button("Send");
-		final TextBox nameField = new TextBox();
-		nameField.setText("GWT User");
-		final Label errorLabel = new Label();
-		
-		// We can add style names to widgets
-		sendButton.addStyleName("sendButton");
-		
-		// Add the nameField and sendButton to the RootPanel
-		// Use RootPanel.get() to get the entire body element
-		RootPanel.get("nameFieldContainer").add(nameField);
-		RootPanel.get("sendButtonContainer").add(sendButton);
-		RootPanel.get("errorLabelContainer").add(errorLabel);
-		
-		// Focus the cursor on the name field when the app loads
-		nameField.setFocus(true);
-		nameField.selectAll();
-		
-		// Create the popup dialog box
-		final DialogBox dialogBox = new DialogBox();
-		dialogBox.setText("Remote Procedure Call");
-		dialogBox.setAnimationEnabled(true);
-		final Button closeButton = new Button("Close");
-		// We can set the id of a widget by accessing its Element
-		closeButton.getElement().setId("closeButton");
-		final Label textToServerLabel = new Label();
-		final HTML serverResponseLabel = new HTML();
-		VerticalPanel dialogVPanel = new VerticalPanel();
-		dialogVPanel.addStyleName("dialogVPanel");
-		dialogVPanel.add(new HTML("<b>Sending name to the server:</b>"));
-		dialogVPanel.add(textToServerLabel);
-		dialogVPanel.add(new HTML("<br><b>Server replies:</b>"));
-		dialogVPanel.add(serverResponseLabel);
-		dialogVPanel.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
-		dialogVPanel.add(closeButton);
-		dialogBox.setWidget(dialogVPanel);
-		
-		// Add a handler to close the DialogBox
-		closeButton.addClickHandler(new ClickHandler() {
-			public void onClick(ClickEvent event) {
-				dialogBox.hide();
-				sendButton.setEnabled(true);
-				sendButton.setFocus(true);
-			}
-		});
-		
-		// Create a handler for the sendButton and nameField
-		class MyHandler implements ClickHandler, KeyUpHandler {
-			/**
-			 * Fired when the user clicks on the sendButton.
-			 */
-		// Tables have no explicit size -- they resize automatically on demand.
-		FlexTable t = new FlexTable();
+		//Create table for stock data.
+		stocksFlexTable.setText(0, 1, "Symbol");
+		stocksFlexTable.setText(0, 2, "Price");
+		stocksFlexTable.setText(0, 3, "Change");
+		stocksFlexTable.setText(0, 4, "Remove");
 
-		// Put some text at the table's extremes.  This forces the table to be
-		// 3 by 3.
-		t.setText(0, 0, "upper-left corner");
-		t.setText(2, 2, "bottom-right corner");
+		//Assemble Add Stock Panel. Sis‰lt‰‰ input box, Add nappi
+		addPanel.add(newSymbolTextBox);
+		addPanel.add(addStockButton);
 
-		// Let's put a button in the middle...
-		t.setWidget(1, 0, new Button("Wide Button"));
+		//Assemble Main Panel. Layout of stock list table, Add Stock panel and timestamp
+		mainPanel.add(stocksFlexTable);
+		mainPanel.add(addPanel);
+		mainPanel.add(lastUpdatedLabel);
 
-		// ...and set it's column span so that it takes up the whole row.
-		t.getFlexCellFormatter().setColSpan(1, 0, 3);
+		//Associate the Main panel with the HTML host page.
+		RootPanel.get("stockList").add(mainPanel);
 
-		RootPanel.get().add(t);
+		//Move cursor focus to the input box
+		newSymbolTextBox.setFocus(true);
 	}
 }
