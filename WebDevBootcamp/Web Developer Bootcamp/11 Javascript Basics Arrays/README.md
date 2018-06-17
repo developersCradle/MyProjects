@@ -87,6 +87,8 @@ We tell .forEach what function to call and it will call it for uss
 .forEach is defined in array prototype. Meaning it can be found in every array!
 We usually make anonymous function if we don't need to call it often. 
 
-we can also call .forEach(element, index) using 2 arguments. Where first one is current element and sencod is idnex
+we can also call .forEach(element, index) using 2 arguments. Where first one is current element and sencod is index
 
 - forEach is function,  there for if you `return` inside for each, you only will return from forEach function call
+
+
