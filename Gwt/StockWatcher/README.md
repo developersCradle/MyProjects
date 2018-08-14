@@ -46,7 +46,7 @@ GWT Widgets
 
 GWT Panels
 -----
-- Panels can be nester within other panels. 
+- Panels can be nester within othre panels. 
 - Vetrical Panel and Horizontal Panel
 - Root panel
 	- Container for dynamic elements
@@ -77,3 +77,17 @@ Events
 
 - Events in GWT use the event handler interface model similiar to other user interface frameworks
 - Using anynomous inner classes usefull for small projects wiht minimal coding. In bigger projects no no!
+
+
+Debug
+---
+- Possible to debug Java source code before compiling into JS
+- Eclipse GWT debugging using different debugger
+
+Ranodom
+------
+- GWT compiler bundles all the static resources. <-- Automatic Resource Inclusion
+- in GWT each class of widget has own 
+- StockWatcher.css define spesific style for StockWatcher
+	-We can assing css #class styles to GWT dynamic elements
+- Chrome refresh is ctrl+f5
