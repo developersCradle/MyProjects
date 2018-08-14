@@ -15,7 +15,7 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 - [x] 08 - Introduction to JavaScript
 - [x] 09 - Javascript Basics Control Flow
 - [x] 10 - Javascript Basics Functions
-- [ ] 11 - Javascript Basics Arrays
+- [x] 11 - Javascript Basics Arrays
 - [ ] 12 - Javascript Basics Objects
 - [ ] 13 - DOM Manipulation
 - [ ] 14 - Advanced DOM Manipulation
