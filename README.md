@@ -22,6 +22,9 @@ Learning by doing projects
 
 * GWT app: StockWatcher [[Gwtproject](http://www.gwtproject.org/doc/latest/tutorial/gettingstarted.html)]
 
+* GWT Tutorials~ GWTLecturer [[GWTLecturer](https://www.youtube.com/playlist?list=PLoWne5q-c9E92-rrra5eiztpq1ACrCWNm)]
+
+
 ## Graphic
 * Add here stuff about graphics like OpenGL and DirectX
 
