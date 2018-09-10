@@ -13,11 +13,12 @@ public class ExampleServiceClientImpl implements ExampleServiceClientInt {
 
 	//Facility for RPC calls
 	public ExampleServiceClientImpl(String url) {
+		System.out.println(url);
 		this.service = GWT.create(ExampleService.class);
 		ServiceDefTarget endpoint = (ServiceDefTarget) this.service;
 		endpoint.setServiceEntryPoint(url);
 
-		this.maingui = new MainGUi(this);
+		this.maingui = new MainGUI(this);
 	}
 
 	@Override
@@ -32,6 +33,10 @@ public class ExampleServiceClientImpl implements ExampleServiceClientInt {
 
 	}
 
+	public MainGUI getMainGUI() {
+		return this.maingui;
+	}
+
 	private class DefaultCallback implements AsyncCallback {
 
 		@Override
@@ -42,7 +47,14 @@ public class ExampleServiceClientImpl implements ExampleServiceClientInt {
 
 		@Override
 		public void onSuccess(Object result) {
-			System.out.println("Response received");
+			if (result instanceof String) {
+				String greetings = (String) result;
+				maingui.updateLabel(greetings);
+			} else if (result instanceof Integer) {
+				int sum = (Integer) result;
+				maingui.updateSumLabel(sum);
+
+			}
 
 		}
 

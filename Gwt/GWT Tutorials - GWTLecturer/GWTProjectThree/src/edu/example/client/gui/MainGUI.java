@@ -16,6 +16,10 @@ public class MainGUI extends Composite {
 	private Label resultLbl;
 	private ExampleServiceClientImpl serviceImpl;
 
+	private TextBox txtNum1;
+	private TextBox txtNum2;
+	private Label sumLbl;
+
 	public MainGUI(ExampleServiceClientImpl serviceImpl) {
 		initWidget(this.vPanel);
 		this.serviceImpl = serviceImpl;
@@ -28,11 +32,29 @@ public class MainGUI extends Composite {
 		this.vPanel.add(btn1);
 
 		this.resultLbl = new Label("Result will be here");
+		this.vPanel.add(resultLbl);
+
+		this.txtNum1 = new TextBox();
+		this.vPanel.add(txtNum1);
+
+		this.txtNum2 = new TextBox();
+		this.vPanel.add(txtNum2);
+
+		Button btn2 = new Button("Add two numbers");
+		btn2.addClickHandler(new Btn2ClickHandler());
+		this.vPanel.add(btn2);
+
+		this.sumLbl = new Label("Sum will be here");
+		this.vPanel.add(sumLbl);
+
 	}
 
-	public updateLabel(String greeting)
-	{
+	public void updateLabel(String greeting) {
 		this.resultLbl.setText(greeting);
+	}
+
+	public void updateSumLabel(int sum) {
+		this.sumLbl.setText("" + sum);
 	}
 
 	private class Btn1ClickHandler implements ClickHandler {
@@ -43,7 +65,18 @@ public class MainGUI extends Composite {
 			serviceImpl.sayHello(name);
 
 		}
+	}
 
+	private class Btn2ClickHandler implements ClickHandler {
+
+		@Override
+		public void onClick(ClickEvent event) {
+			int num1 = Integer.valueOf(txtNum1.getText());
+			int num2 = Integer.valueOf(txtNum2.getText());
+
+			serviceImpl.addTwoNumber(num1, num2);
+
+		}
 	}
 
 }
