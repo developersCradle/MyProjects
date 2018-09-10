@@ -29,11 +29,18 @@ The trouble with RPC
 
 ![RPC implementation pic](pic1.PNG)
 
------------------------------
-GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
-url here
-------------------------------
+-----------------------------------------------
 
+GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
+https://www.youtube.com/watch?v=dBZyWq13AQg
+--------------------------------------------
+
+- Object Oriented practices data is usually handled inside the system in the form of Objects instead primitive types.
+
+- Not every object can by default be sent from the server to the client
+	- A object needs to be converted to a binary format so it can be sent.
+	- This is done in GWT by implementing the "Serializable" interface in every object that is sent 	from the server to the client and vice versa.
+	- This also means that objects can only contain attributes which are primitive types, or are 	objects that in turn can be Serialized 
 
 
 ## Progress
@@ -44,6 +51,6 @@ url here
 - [ ] GWT Tutorial 1.0 - Basics of GWT and GUI Building
 - [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
-- [ ] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
+- [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
 - [ ] GWT Tutorial 2.2 - Remote Procedure Calls (RPC) with Complex Datatypes - Part 2
 - [ ] GWT Tutorial 2.3 - Easy Error Handling with Remote Procedure Calls (RPC)
