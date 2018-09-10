@@ -27,7 +27,7 @@ The trouble with RPC
 
 - Async methods doesn't never return value(void value) -> Values are coming back with callbacks!
 
-![RPC implementation pic](#)
+![RPC implementation pic](pic1.PNG)
 
 -----------------------------
 GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
