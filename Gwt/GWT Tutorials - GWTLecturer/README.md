@@ -5,20 +5,60 @@ GWT tutorial series.
 
 ## Progress
 
-- [ ] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
-- [ ] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
-- [ ] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
-- [ ] GWT Tutorial 1.0 - Basics of GWT and GUI Building
+- [x] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
+- [x] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
+- [x] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
+- [o] GWT Tutorial 1.0 - Basics of GWT and GUI Building 14:00
 - [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 - [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
 - [ ] GWT Tutorial 2.2 - Remote Procedure Calls (RPC) with Complex Datatypes - Part 2
 - [ ] GWT Tutorial 2.3 - Easy Error Handling with Remote Procedure Calls (RPC)
 
-
+ x = done
+ o = in progress
 
 Notes
 ===========
+GWT Tutorial 1.0 - Basics of GWT and GUI Building
+--------------------------------------------------
+
+- GWT is AJAX Toolkit
+
+- Advantages of AJAX based Web Applications:
+	- Offers rich functionality whitout needing plugins
+		- Essentially are applications based on HTML and Javascript
+	- Runs on all platforms
+	- Runs on all browsers
+
+- Disdvantages of AJAX based Web Application:
+	- Every web browsers handles AJAX differently
+
+
+Why GWT?
+
+- GWT deals with every browser AJAX differently 
+- Java code -> spesific AJAX code for every browser
+	-  Write one set of code, run on all browsers!
+		- Some minor problems still occur on some browsers
+
+- GWT come with a lot of pre-build components
+	- Styling is done in CSS
+	- Support for inclusion of third party components
+
+- GWT takes a strong OO approach to Software Architecture
+	- Same as Java
+
+
+Breakdown of GWT App
+
+![Breakdown of GWT App](pic2.PNG)
+
+
+
+
+
+
 
 GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 https://www.youtube.com/watch?v=Hd5vnHNylB8
