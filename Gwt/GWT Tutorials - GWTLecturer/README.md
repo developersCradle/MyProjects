@@ -2,6 +2,21 @@
 
 GWT tutorial series.
 
+
+## Progress
+
+- [ ] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
+- [ ] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
+- [ ] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
+- [ ] GWT Tutorial 1.0 - Basics of GWT and GUI Building
+- [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
+- [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
+- [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
+- [ ] GWT Tutorial 2.2 - Remote Procedure Calls (RPC) with Complex Datatypes - Part 2
+- [ ] GWT Tutorial 2.3 - Easy Error Handling with Remote Procedure Calls (RPC)
+
+
+
 Notes
 ===========
 
@@ -43,14 +58,3 @@ https://www.youtube.com/watch?v=dBZyWq13AQg
 	- This also means that objects can only contain attributes which are primitive types, or are 	objects that in turn can be Serialized 
 
 
-## Progress
-
-- [ ] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
-- [ ] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
-- [ ] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
-- [ ] GWT Tutorial 1.0 - Basics of GWT and GUI Building
-- [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
-- [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
-- [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
-- [ ] GWT Tutorial 2.2 - Remote Procedure Calls (RPC) with Complex Datatypes - Part 2
-- [ ] GWT Tutorial 2.3 - Easy Error Handling with Remote Procedure Calls (RPC)
