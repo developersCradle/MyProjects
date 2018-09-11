@@ -5,9 +5,9 @@ GWT tutorial series.
 
 ## Progress
 
-- [ ] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
-- [ ] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
-- [ ] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
+- [x] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
+- [x] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
+- [x] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
 - [ ] GWT Tutorial 1.0 - Basics of GWT and GUI Building
 - [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
@@ -19,6 +19,13 @@ GWT tutorial series.
 
 Notes
 ===========
+
+GWT Tutorial 1.0 - Basics of GWT and GUI Building
+https://www.youtube.com/watch?v=ISYwZOxdfUw
+----------------------------------------
+
+
+
 
 GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 https://www.youtube.com/watch?v=Hd5vnHNylB8
