@@ -8,7 +8,7 @@ GWT tutorial series.
 - [x] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
 - [x] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
 - [x] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
-- [o] GWT Tutorial 1.0 - Basics of GWT and GUI Building 38:00
+- [o] GWT Tutorial 1.0 - Basics of GWT and GUI Building 53:00
 - [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 - [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
@@ -57,13 +57,23 @@ Breakdown of GWT App
 
 
 - edu.example.
-	nameOfProject.gwt.xml <-- GWT spesific configuration file. ie 3rd party
+	nameOfProject.gwt.xml <-- GWT specific configuration file. ie 3rd party
 
 - war folder <-- All the web content must be here
 
 Widgets
 
 - Panels way to structure your site
+
+- Vertical panels sequence how elements are added is how they are represented in webpage
+
+- You can create your own widgets
+	- Extending Composite -> Telling this class is widget 	containing other widgets
+	
+- initWidget(vPanel); -> Everything in displayed in this class, starts from vPanel 
+
+
+
 	 
 
 
