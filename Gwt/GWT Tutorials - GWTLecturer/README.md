@@ -8,7 +8,7 @@ GWT tutorial series.
 - [x] GWT Tutorial 0.1 - Installing, and debugging with, Eclipse
 - [x] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
 - [x] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
-- [o] GWT Tutorial 1.0 - Basics of GWT and GUI Building 53:00
+- [x] GWT Tutorial 1.0 - Basics of GWT and GUI Building
 - [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 - [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
@@ -72,6 +72,7 @@ Widgets
 	
 - initWidget(vPanel); -> Everything in displayed in this class, starts from vPanel 
 
+- Composite widgets can be inside Composite widgets
 
 
 	 

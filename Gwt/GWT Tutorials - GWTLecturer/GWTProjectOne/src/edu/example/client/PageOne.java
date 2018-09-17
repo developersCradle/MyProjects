@@ -40,6 +40,9 @@ public class PageOne extends Composite
 		hPanel.add(btn1);
 		
 		vPanel.add(hPanel);
+		
+		PageTwo two = new PageTwo();
+		vPanel.add(two);
 	}
 	
 	private class ButtonClickHandler implements ClickHandler
