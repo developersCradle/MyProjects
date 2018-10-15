@@ -9,7 +9,7 @@ GWT tutorial series.
 - [x] GWT Tutorial 0.2 - Installing the GWT Plugin in Eclipse
 - [x] GWT Tutorial - 0.3 - Using GWT Super Dev Mode to Run and Debug GWT Projects
 - [x] GWT Tutorial 1.0 - Basics of GWT and GUI Building
-- [ ] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
+- [o] GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building 8:15
 - [x] GWT Tutorial 2.0 - Remote Procedure Calls (RPC) with GWT
 - [x] GWT Tutorial 2.1 - Remote Procedure (RPC) Calls with Complex Datatypes
 - [ ] GWT Tutorial 2.2 - Remote Procedure Calls (RPC) with Complex Datatypes - Part 2
@@ -76,6 +76,27 @@ Widgets
 
 
 	 
+GWT Tutorial 1.1 - Proper Architecture for GWT GUI Building
+https://www.youtube.com/watch?v=AapyOMOoQNM
+-----------------------------------------------------------
+
+- Why use proper Architecture?
+	- Code is more organized
+	- Easier to maintain
+	- Easier to extend
+
+The Architecture (2/2)
+
+- GWT based applications can be broken down into "sections"
+	- In GWT Sections are referred to as "Widgets"
+	- Similiar to Java Swing JFrame's and JPanel's.
+ 
+![The Architecture](pic4.PNG)
+
+- MainView is placeholder for currentGUI, MainView regulateGUI 
+
+
+![Screen Outline](pic5.PNG)
 
 
 
