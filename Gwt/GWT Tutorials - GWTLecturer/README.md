@@ -141,6 +141,7 @@ GWT tutorial series.
 Notes
 ===========
 GWT Tutorial 1.0 - Basics of GWT and GUI Building
+https://www.youtube.com/watch?v=ISYwZOxdfUw
 --------------------------------------------------
 
 - GWT is AJAX Toolkit
