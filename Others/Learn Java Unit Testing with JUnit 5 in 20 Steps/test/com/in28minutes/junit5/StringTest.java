@@ -5,9 +5,36 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInfo;
 
 class StringTest {
+
+	@BeforeAll
+	static void beforeAll() {
+		System.out.println("Initializing connection to database");
+	}
+
+	@AfterAll
+	static void afterAll() {
+		System.out.println("closing connection to database");
+	}
+
+	@BeforeEach
+	void beforeEach(TestInfo info) {
+		System.out.println("This is run beginning of test" + info.getDisplayName());
+
+	}
+
+	@AfterEach
+	void afterEach() {
+		System.out.println("cleaning data");
+	}
+
 //Test annotation specifies this method as test
 	@Test
 	void length_basic() {
@@ -44,4 +71,12 @@ class StringTest {
 
 		assertArrayEquals(expectedResult, actualResult);
 	}
+
+	@Test
+	void length_exception() {
+		String str = null;
+		int actualLength = str.length();
+
+	}
+
 }
