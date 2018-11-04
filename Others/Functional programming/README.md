@@ -10,12 +10,12 @@ Link to whole [course](https://courses.in28minutes.com/p/java-tutorial-for-begin
 
 
 - [x] Step 01 - Introduction to Functional Programming - Functions are First Class Citizens
-- [ ] Step 02 - Functional Programming - First Example with Function as Parameter
-- [ ] Step 03 - Functional Programming - Exercise - Loop a List of Numbers
-- [ ] Step 04 - Functional Programming - Filtering - Exercises to print odd and even numbers from List
-- [ ] Step 05 - Functional Programming - Collect - Sum of Numbers in a List
-- [ ] Step 06 - Functional Programming vs Structural Programming - A Quick Comparison
-- [ ] Step 07 - Functional Programming Terminology - Lambda Expression, Stream and Operations on a Stream
+- [x] Step 02 - Functional Programming - First Example with Function as Parameter
+- [x] Step 03 - Functional Programming - Exercise - Loop a List of Numbers
+- [x] Step 04 - Functional Programming - Filtering - Exercises to print odd and even numbers from List
+- [x] Step 05 - Functional Programming - Collect - Sum of Numbers in a List
+- [x] Step 06 - Functional Programming vs Structural Programming - A Quick Comparison
+- [x] Step 07 - Functional Programming Terminology - Lambda Expression, Stream and Operations on a Stream
 - [ ] Step 08 - Stream Intermediate Operations - Sort, Distinct, Filter and Map
 - [ ] Step 09 - Stream Intermediate Operations -Exercises-Squares of First 10, Map String List to LowerCase and Length of String
 - [ ] Step 10 - Stream Terminal Operations - 1 - max operation with Comparator
