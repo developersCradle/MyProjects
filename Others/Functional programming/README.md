@@ -1,6 +1,7 @@
 ## Introduction to Functional Programming
 
-![Functional programming](Functional-Prog.png =250x250)
+<img src="Functional-Prog.png" width="100" height="10">
+
 
 This section is from Java Tutorial for Beginner in 250 Steps ~ Functional Programming chapter by in28minutes.
 Link to whole [course](https://courses.in28minutes.com/p/java-tutorial-for-beginner-in-250-steps)
