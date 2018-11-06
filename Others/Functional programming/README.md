@@ -16,8 +16,8 @@ Link to whole [course](https://courses.in28minutes.com/p/java-tutorial-for-begin
 - [x] Step 05 - Functional Programming - Collect - Sum of Numbers in a List
 - [x] Step 06 - Functional Programming vs Structural Programming - A Quick Comparison
 - [x] Step 07 - Functional Programming Terminology - Lambda Expression, Stream and Operations on a Stream
-- [ ] Step 08 - Stream Intermediate Operations - Sort, Distinct, Filter and Map
-- [ ] Step 09 - Stream Intermediate Operations -Exercises-Squares of First 10, Map String List to LowerCase and Length of String
+- [x] Step 08 - Stream Intermediate Operations - Sort, Distinct, Filter and Map
+- [x] Step 09 - Stream Intermediate Operations -Exercises-Squares of First 10, Map String List to LowerCase and Length of String
 - [ ] Step 10 - Stream Terminal Operations - 1 - max operation with Comparator
 - [ ] Step 11 - Stream Terminal Operations - 2 - min, collect to List,
 - [ ] Step 12 - Optional class in Java - An Introduction

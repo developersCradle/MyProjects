@@ -2,15 +2,20 @@ package com.in28minutes.junit5;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 class StringTest {
 
@@ -73,9 +78,28 @@ class StringTest {
 	}
 
 	@Test
+	@DisplayName("When string is null, throw an exception") //IN Junit 5
 	void length_exception() {
+
 		String str = null;
-		int actualLength = str.length();
+		assertThrows(NullPointerException.class, () -> {
+			str.length();
+		});
+
+	}
+
+	@Test
+	void lenght_greater_than_zero() {
+		assertTrue("ABCD".length() > 0);
+		assertTrue("ABC".length() > 0);
+		assertTrue("A".length() > 0);
+		assertTrue("DEF".length() > 0);
+	}
+
+	@ParameterizedTest
+	@ValueSource(strings = { "ABCD", "ABC", "A", "DEF" })
+	void lenght_greater_than_zero_using_parameterized_test(String str) {
+		assertTrue(str.length() > 0);
 
 	}
 

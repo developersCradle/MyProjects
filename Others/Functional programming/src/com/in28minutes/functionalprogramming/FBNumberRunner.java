@@ -2,6 +2,7 @@ package com.in28minutes.functionalprogramming;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class FBNumberRunner {
 
@@ -16,15 +17,21 @@ public class FBNumberRunner {
 
 		//numbers.stream().forEach(element -> System.out.println(element));
 
+		//Exercise 1
+		IntStream.range(1, 11).mapToObj(e -> e * e).forEach(p -> System.out.println(p));
+
+		/*
 		int sum = numbers.stream().reduce(0, (number1, number2) -> {
 			System.out.println(number1 + " " + number2);
 			return number1 + number2;
 		});
 		int sum2 = fpSum(numbers);
-
+		
 		//int sum = normalSum(numbers);
 		System.out.println(sum);
 		System.out.println("Sum of odd numbers: " + sum2);
+		
+		*/
 	}
 
 	private static int fpSum(List<Integer> numbers) { //Compare these two same methods
