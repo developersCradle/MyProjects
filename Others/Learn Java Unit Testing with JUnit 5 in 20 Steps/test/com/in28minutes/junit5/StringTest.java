@@ -6,18 +6,26 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
+
+import java.time.Duration;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 class StringTest {
+
+	private String str;
 
 	@BeforeAll
 	static void beforeAll() {
@@ -64,6 +72,7 @@ class StringTest {
 	}
 
 	@Test
+	@RepeatedTest(10)
 	void contains_basic() {
 		assertFalse("abcdefgh".contains("ijk")); //test if something is true
 	}
@@ -101,6 +110,43 @@ class StringTest {
 	void lenght_greater_than_zero_using_parameterized_test(String str) {
 		assertTrue(str.length() > 0);
 
+	}
+
+	@ParameterizedTest
+	@CsvSource(value = { "abcd, ABCD", "abc, ABC", "'',''", "abcdefg,ABCDEFG" }) //In Csv emptyvalues are treated as null
+	void uppercase(String word, String capitalizeWord) { //We need to make sure to check parameters
+		assertEquals(capitalizeWord, word.toUpperCase());
+
+	}
+
+	@ParameterizedTest(name = "{0} lenght is {1}") // Giving name for each test
+	@CsvSource(value = { "ABCD,4", "ABC,3", "A,1", "DEF,3" }) //In Csv empty values are treated as null
+	void lenght_greater_than_zero_using_parameterized_test(String wordToTest, int expectedLenght) { //We need to make sure to check parameters
+		assertTrue(wordToTest.length() >= expectedLenght);
+
+	}
+
+	@Test
+	void perfomanceTest() {
+		assertTimeout(Duration.ofSeconds(5), () -> {
+			for (int i = 0; i < 1000000; i++) {
+				int j = i;
+				System.out.println(j);
+			}
+		});
+	}
+
+	@Nested
+	class EmptyStringTest {
+		@BeforeEach
+		void setToEmpty() {
+			str = "";
+		}
+
+		@Test
+		void lenghtIsZero() {
+			assertEquals(0, str.length());
+		}
 	}
 
 }
