@@ -2,6 +2,7 @@ package com.in28minutes.functionalprogramming;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class IntermediateOperations {
 
@@ -23,6 +24,10 @@ public class IntermediateOperations {
 
 		numbers.stream().distinct().map(e -> e * e).forEach(e -> System.out.println(e));
 		//We are squaring every distinct element
+
+		int luku2 = IntStream.range(1, 11).reduce(0, (n1, n2) -> n1 + n2);
+		System.out.println(luku2);
+
 	}
 
 }
