@@ -21,10 +21,21 @@ public class ArraysCompareTest {
 		assertArrayEquals(expected, numbers);
 	}
 
+	//exception testing
 	@Test(expected = NullPointerException.class)
 	public void testArraysSort_NullArray() {
 		int[] numbers = {};
 		Arrays.sort(numbers);
 
+	}
+
+	//performance test
+	@Test(timeout = 1000) //ms
+	public void testSort_Perfomance() {
+		int array[] = { 12, 23, 4 };
+		for (int i = 1; i < 1000000; i++) {
+			array[0] = i;
+			Arrays.sort(array);
+		}
 	}
 }

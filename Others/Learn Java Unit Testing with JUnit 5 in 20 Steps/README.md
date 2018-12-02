@@ -5,4 +5,4 @@ Learning about Unit Testing
 ## Progress
 
 - [x] 01 - JUnit 5
-- [ ] 02 - JUnit 4
+- [x] 02 - JUnit 4
