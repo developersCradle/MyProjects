@@ -2,6 +2,7 @@ package com.bharath.order.bo;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
@@ -17,6 +18,8 @@ import com.bharath.order.dao.OrderDAO;
 import com.bharath.order.dto.Order;
 
 public class OrderBOImplTest {
+
+	private static final int ORDER_ID = 123;
 
 	//1.STUB OUT DEPENCIES
 	@Mock
@@ -37,13 +40,15 @@ public class OrderBOImplTest {
 		Order order = new Order();
 
 		//2. SETTING EXPECTATIONS 
-		when(dao.create(order)).thenReturn(new Integer(1)); // mock out method call, we want to return result of one
+		//when(dao.create(order)).thenReturn(new Integer(1)); // mock out method call, we want to return result of one
+		when(dao.create(any(Order.class))).thenReturn(new Integer(1)); // OR using Mockito matchers
 
 		boolean result = bo.placeOrder(order);
 
 		//3. VERIFY RESULT
 		assertTrue(result);
 		verify(dao).create(order);//mockito class, § if method is called once
+		//verify(dao, times(2)).create(order); is invoked 2 times?
 
 	}
 
@@ -73,23 +78,23 @@ public class OrderBOImplTest {
 	@Test
 	public void cancelOrder_Should_Cancel_The_Order() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDER_ID)).thenReturn(order);
 		when(dao.update(order)).thenReturn(1);
 
-		boolean result = bo.cancelOrder(123);
+		boolean result = bo.cancelOrder(ORDER_ID);
 
 		assertTrue(result);
-		verify(dao).read(123);
+		verify(dao).read(ORDER_ID);
 		verify(dao).update(order);
 	}
 
 	@Test
 	public void cancelOrder_Should_not_Cancel_The_Order() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDER_ID)).thenReturn(order);
 		when(dao.update(order)).thenReturn(0);
 
-		boolean result = bo.cancelOrder(123);
+		boolean result = bo.cancelOrder(ORDER_ID);
 
 		assertFalse(result);
 		verify(dao).read(123);
@@ -98,17 +103,26 @@ public class OrderBOImplTest {
 
 	@Test(expected = BOException.class)
 	public void cancelOrder_ShouldThrowBOExceptionOnRead() throws SQLException, BOException {
-		when(dao.read(123)).thenThrow(SQLException.class);
+		when(dao.read(ORDER_ID)).thenThrow(SQLException.class);
 
-		bo.cancelOrder(123);
+		bo.cancelOrder(ORDER_ID);
 
 	}
 
 	@Test(expected = BOException.class)
 	public void cancelOrder_Should_Throw_A_BOExceptionOnUpdate() throws SQLException, BOException {
 		Order order = new Order();
-		when(dao.read(123)).thenReturn(order);
+		when(dao.read(ORDER_ID)).thenReturn(order);
 		when(dao.update(order)).thenThrow(SQLException.class);
-		bo.cancelOrder(123);
+		bo.cancelOrder(ORDER_ID);
+	}
+
+	@Test
+	public void deleteOrder_Deletes_The_Order() throws SQLException, BOException {
+		when(dao.delete(ORDER_ID)).thenReturn(1);
+		boolean result = bo.deleteOrder(ORDER_ID);
+
+		assertTrue(result);
+		verify(dao).delete(ORDER_ID);
 	}
 }
