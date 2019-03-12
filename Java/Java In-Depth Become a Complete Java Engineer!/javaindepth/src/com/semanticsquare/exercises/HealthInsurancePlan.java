@@ -4,6 +4,7 @@ public class HealthInsurancePlan
 {
     // Code for 'coverage' field goes here
     private Double coverage;
+ 
     
     // Don't worry about the below code and also the InsuranceBrand class
 	private InsuranceBrand offeredBy;
