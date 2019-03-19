@@ -22,6 +22,8 @@ public class UserTest {
 		User staff = new Staff();
 		User editor = new Editor();
 		
+		staff.postAReview("");
+		
 		/*UserTest ut = new UserTest();
 		ut.printUserType(user);
 		ut.printUserType(staff);

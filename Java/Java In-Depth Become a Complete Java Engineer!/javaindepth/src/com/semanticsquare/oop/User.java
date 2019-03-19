@@ -7,9 +7,13 @@ public class User {
    
    public void saveWebLink() {
 	   System.out.println("User: saveWebLink");
-	   postAReview();
+	 //  postAReview();
    }
-   public void postAReview() {
+   public Review postAReview(String reviewText) {
 	   System.out.println("User: postAReview");
+	   Review review = new Review(reviewText);
+	   return review;
+	   
+			   
    }
 }
