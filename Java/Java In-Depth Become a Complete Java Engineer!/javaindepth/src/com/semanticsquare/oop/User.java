@@ -1,6 +1,8 @@
 package com.semanticsquare.oop;
 
 public class User {
+	public int id = 1;
+	   
    public void printUserType() {
 	   System.out.println("User");
    }
@@ -15,5 +17,17 @@ public class User {
 	   return review;
 	   
 			   
+   }
+   
+   
+   // Method binding demo
+   public static void staticMethod() {
+   }
+   
+   public void instanceMethod(double d) {
+      System.out.println("User: instanceMethod");
+   }
+   public void instanceMethod(User u) {
+      System.out.println("User: instanceMethod");
    }
 }
