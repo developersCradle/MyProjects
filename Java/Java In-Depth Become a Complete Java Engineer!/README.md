@@ -1,4 +1,5 @@
 ## Java In-Depth Become a Complete Java Engineer!
+![JAVA ENGINEER](pic.jpg)
 
 Boosting my Java skils.
 
@@ -8,9 +9,9 @@ Boosting my Java skils.
 - [x] 02 - Java: A High-level Overview
 - [x] 03 - Classes, Objects, and their Members
 - [x] 04 - Method Building Blocks: Operators & Control-flow Statements
-- [ ] 05 - Packages, Strings and Information Hiding
-- [ ] 06 - static, final, and Coding Conventions
-- [ ] 07 - 
+- [x] 05 - Packages, Strings and Information Hiding
+- [x] 06 - static, final, and Coding Conventions
+- [x] 07 - Case Study: A Social Bookmarking Application
 - [ ] 08 - 
 - [ ] 09 - 
 - [ ] 10 -
