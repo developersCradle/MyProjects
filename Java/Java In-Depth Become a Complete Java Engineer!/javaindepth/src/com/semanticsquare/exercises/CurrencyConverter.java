@@ -1,3 +1,5 @@
+package com.semanticsquare.exercises;
+
 public class CurrencyConverter
 {
 	int dollar; // Intance varible, we cannot reinitialize here
