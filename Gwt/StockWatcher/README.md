@@ -46,7 +46,7 @@ GWT Widgets
 
 GWT Panels
 -----
-- Panels can be nester within othre panels. 
+- Panels can be nester within other panels. 
 - Vetrical Panel and Horizontal Panel
 - Root panel
 	- Container for dynamic elements
