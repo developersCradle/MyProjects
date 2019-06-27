@@ -6,11 +6,11 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class Home implements EntryPoint {
 
-	Label newLabel = new Label("Hello World");
+
+	private LitleForm form = new LitleForm();
 	@Override
 	public void onModuleLoad() { //Like main
-		RootPanel.get().add(newLabel);
-
+		RootPanel.get().add(form);
 	}
 
 }

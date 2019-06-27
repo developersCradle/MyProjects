@@ -4,6 +4,8 @@
 Learn how to program HTML5 web apps in Java with GWT. 
 The Google Web Toolkit 2.5.1 compiler generates highly optimized JavaScript code. This GWT tutorial series will walk you through what it is, how to install it, and how to start coding with it, all the way through developing more complex web applications using the Java language, and ending with awesome HTML5 code.
 We'll also cover design patterns specific to GWT, including the MVP pattern (model view presenter), as well as UIBinder, GWT RPC, JSON, and other advanced topics
+[AuthorsGitRepo](https://github.com/formigone/elt-google-web-toolkit)
+
 
 ## Progress
 
@@ -12,11 +14,11 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 - [x] 03 - Installing SDK & Eclipse Plugin - GWT Tutorial (Google Web Toolkit)
 - [x] 04 - Hello World - GWT Tutorial (Google Web Toolkit)
 - [x] 05 - GWT Application Structure - GWT Tutorial (Google Web Toolkit)
-- [ ] 06 - 
-- [ ] 07 - 
-- [ ] 08 - 
+- [x] 06 - Designing with UiBinder - GWT Tutorial (Google Web Toolkit)
+- [x] 07 - UiBinder Git Repository - GWT Tutorial (Google Web Toolkit)
+- [x] 08 - Widgets & Event Handlers - GWT Tutorial (Google Web Toolkit)
 - [ ] 09 - 
-- [ ] 10 -
+- [ ] 10 - 
 - [ ] 11 - 
 - [ ] 12 - 
 - [ ] 13 - 
@@ -25,6 +27,7 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 
  NOTES
 -------------
+
 Part 05 notes
 -------------
 - GWT application is organized into modules
@@ -43,5 +46,7 @@ Part 05 notes
 	-Check your HTML file is referencing Js for bootstrap functionality
 		- Hello.nocache.js <- bootsrap, detects environment settings(ie. browser)
 		- <script type="text/javascript" language="javascript" src="Hello/Hello.nocache.js"></script>
+		- HTML needs to point to module
 		
-		8:20 jääty
+Part 08 notes
+--------------
