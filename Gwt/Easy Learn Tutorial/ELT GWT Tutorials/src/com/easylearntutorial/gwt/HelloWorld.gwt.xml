@@ -4,6 +4,7 @@
   "http://gwtproject.org/doctype/2.8.1/gwt-module.dtd">
 <module rename-to="Hello">
 	<inherits name='com.google.gwt.user.User' />
+	<inherits name="com.google.gwt.user.theme.standard.Standard" />
 	<source path='client' />
 	<entry-point class="com.easylearntutorial.gwt.client.Home"></entry-point>
 </module>

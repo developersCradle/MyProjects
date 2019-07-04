@@ -17,8 +17,8 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 - [x] 06 - Designing with UiBinder - GWT Tutorial (Google Web Toolkit)
 - [x] 07 - UiBinder Git Repository - GWT Tutorial (Google Web Toolkit)
 - [x] 08 - Widgets & Event Handlers - GWT Tutorial (Google Web Toolkit)
-- [ ] 09 - 
-- [ ] 10 - 
+- [x] 09 - Widgets & Application Themes - GWT Tutorial (Google Web Toolkit)
+- [o] 10 - MVP - Model View Presenter - GWT Tutorial (Google Web Toolkit)
 - [ ] 11 - 
 - [ ] 12 - 
 - [ ] 13 - 
@@ -48,5 +48,11 @@ Part 05 notes
 		- <script type="text/javascript" language="javascript" src="Hello/Hello.nocache.js"></script>
 		- HTML needs to point to module
 		
-Part 08 notes
---------------
+Part 10 notes
+-------------
+MVP = Model View Presenter
+
+use of MVP in old way [Building MVP apps: MVP Part I](http://www.gwtproject.org/articles/mvp-architecture.html)
+use of MVP in new way(UiBinder way) [Building MVP apps: MVP Part I](http://www.gwtproject.org/articles/mvp-architecture-2.html)
+
+![MVP diagram](mvp_diagram.png)
