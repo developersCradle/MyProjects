@@ -18,7 +18,6 @@ public class Home implements EntryPoint {
 
 	//private Button btn;
 	//private Button btn2;
-//06:00
 	//private LitleForm form = new LitleForm();
 	@Override
 	public void onModuleLoad() { //Like main

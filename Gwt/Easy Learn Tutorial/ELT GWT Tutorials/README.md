@@ -18,9 +18,9 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 - [x] 07 - UiBinder Git Repository - GWT Tutorial (Google Web Toolkit)
 - [x] 08 - Widgets & Event Handlers - GWT Tutorial (Google Web Toolkit)
 - [x] 09 - Widgets & Application Themes - GWT Tutorial (Google Web Toolkit)
-- [o] 10 - MVP - Model View Presenter - GWT Tutorial (Google Web Toolkit)
-- [ ] 11 - 
-- [ ] 12 - 
+- [x] 10 - MVP - Model View Presenter - GWT Tutorial (Google Web Toolkit)
+- [x] 11 - MVP - Model Objects - GWT Tutorial (Google Web Toolkit)
+- [o] 12 - MVP - How to use data Model - GWT Tutorial (Google Web Toolkit)
 - [ ] 13 - 
 - [ ] 14 -  
 - [ ] 15 - 
@@ -56,3 +56,10 @@ use of MVP in old way [Building MVP apps: MVP Part I](http://www.gwtproject.org/
 use of MVP in new way(UiBinder way) [Building MVP apps: MVP Part I](http://www.gwtproject.org/articles/mvp-architecture-2.html)
 
 ![MVP diagram](mvp_diagram.png)
+
+- Event bus and AppController is not part of MVP
+
+Using MVP
+	- Application more testable -> presenter does not know view
+	- View should be dumb, different views -> just change view for another environment
+
