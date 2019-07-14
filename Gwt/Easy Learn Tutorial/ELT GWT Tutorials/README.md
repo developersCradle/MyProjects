@@ -20,9 +20,9 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 - [x] 09 - Widgets & Application Themes - GWT Tutorial (Google Web Toolkit)
 - [x] 10 - MVP - Model View Presenter - GWT Tutorial (Google Web Toolkit)
 - [x] 11 - MVP - Model Objects - GWT Tutorial (Google Web Toolkit)
-- [o] 12 - MVP - How to use data Model - GWT Tutorial (Google Web Toolkit)
-- [ ] 13 - 
-- [ ] 14 -  
+- [x] 12 - MVP - How to use data Model - GWT Tutorial (Google Web Toolkit)
+- [x] 13 - MVP - Presenter - GWT Tutorial (Google Web Toolkit)
+- [o] 14 - MVP - Binding Presenter events - GWT Tutorial (Google Web Toolkit)
 - [ ] 15 - 
 
  NOTES

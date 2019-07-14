@@ -1,5 +1,10 @@
 package com.easylearntutorial.gwt.client;
 
+import com.easylearntutorial.gwt.client.presenters.PersonPresenter;
+import com.easylearntutorial.gwt.client.presenters.PersonPresenter.Display;
+import com.easylearntutorial.gwt.client.views.PersonView;
+import com.easylearntutorial.gwt.client.presenters.Presenter;
+import com.easylearntutorial.gwt.shared.Person;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -21,24 +26,32 @@ public class Home implements EntryPoint {
 	//private LitleForm form = new LitleForm();
 	@Override
 	public void onModuleLoad() { //Like main
-		MenuBar menu = new MenuBar(false);
-		Command cmd = new Command() {
-			@Override
-			public void execute() {
-
-				Window.alert("CLICKED");
-			}
-		};
-		MenuBar menuFile = new MenuBar(true /*Vertical*/);
-		menuFile.addItem(new MenuItem("New", cmd));
-		menuFile.addItem(new MenuItem("Open File", cmd));
-		menuFile.addItem(new MenuItem("Close", cmd));
 		
-		menu.addItem(new MenuItem("File", menuFile));
-		menu.addItem(new MenuItem("Edit", cmd));
-		menu.addItem(new MenuItem("Refactor", cmd));
 		
-		RootPanel.get().add(menu);
+	Person me = new Person();//MODEL
+	Display view = new PersonView();//VIEW
+	Presenter presenter = new PersonPresenter(me, view);//PRESENTER
+	presenter.go(RootPanel.get());
+	
+		
+		//		MenuBar menu = new MenuBar(false);
+//		Command cmd = new Command() {
+//			@Override
+//			public void execute() {
+//
+//				Window.alert("CLICKED"); 
+//			}
+//		};
+//		MenuBar menuFile = new MenuBar(true /*Vertical*/);
+//		menuFile.addItem(new MenuItem("New", cmd));
+//		menuFile.addItem(new MenuItem("Open File", cmd));
+//		menuFile.addItem(new MenuItem("Close", cmd));
+//		
+//		menu.addItem(new MenuItem("File", menuFile));
+//		menu.addItem(new MenuItem("Edit", cmd));
+//		menu.addItem(new MenuItem("Refactor", cmd));
+//		
+//		RootPanel.get().add(menu);
 		//RootPanel.get().add(form); //UIBinder form
 //		btn = new Button("click me");
 //		btn2 = new Button(":(");

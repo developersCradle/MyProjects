@@ -13,6 +13,11 @@ public class Person {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+	
+	public String getFullName()
+	{
+		return this.getFirstName() + " " + this.getLastName() + "!"; 
+	}
 	public String getFirstName() {
 		return firstName;
 	}
