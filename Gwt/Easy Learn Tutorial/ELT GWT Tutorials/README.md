@@ -22,8 +22,8 @@ We'll also cover design patterns specific to GWT, including the MVP pattern (mod
 - [x] 11 - MVP - Model Objects - GWT Tutorial (Google Web Toolkit)
 - [x] 12 - MVP - How to use data Model - GWT Tutorial (Google Web Toolkit)
 - [x] 13 - MVP - Presenter - GWT Tutorial (Google Web Toolkit)
-- [o] 14 - MVP - Binding Presenter events - GWT Tutorial (Google Web Toolkit)
-- [ ] 15 - 
+- [x] 14 - MVP - Binding Presenter events - GWT Tutorial (Google Web Toolkit)
+- [o] 15 - Event Bus: GWT Tutorial (Google Web Toolkit)
 
  NOTES
 -------------
@@ -63,3 +63,6 @@ Using MVP
 	- Application more testable -> presenter does not know view
 	- View should be dumb, different views -> just change view for another environment
 
+Part 15 notes
+-------------
+- Event buss is pattern is it own, helps decouble application
