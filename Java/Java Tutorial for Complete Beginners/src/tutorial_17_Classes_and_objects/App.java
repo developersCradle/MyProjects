@@ -1,4 +1,4 @@
-package tutorilal_17_Classes_and_objects;
+package tutorial_17_Classes_and_objects;
 
 class Person {
 
