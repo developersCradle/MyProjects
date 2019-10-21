@@ -51,7 +51,7 @@ public class OrderBOImpl implements OrderBO {
 			if (result == 0) {
 				return false;
 			}
-		} catch (SQLException e) {//TODO heikki kirjoita testit - skenaariolle ja poikkeukselle
+		} catch (SQLException e) {
 			throw new BOException(e);
 		}
 		return true;
