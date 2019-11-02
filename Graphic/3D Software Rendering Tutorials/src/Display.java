@@ -73,6 +73,10 @@ public class Display extends Canvas{
 		
 	}	
 	
+	public Bitmap GetFrameBuffer() {
+		return m_frameBuffer;
+	}
+	
 	public void swapBuffers()
 	{
 		m_frameBuffer.CopyToByteArray(m_displayComponents);
@@ -82,5 +86,7 @@ public class Display extends Canvas{
 		m_bufferStrategy.show();
 		
 	}
+
+
 	
 }

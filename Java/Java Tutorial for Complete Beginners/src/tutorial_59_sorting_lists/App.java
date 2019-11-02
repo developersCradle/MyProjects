@@ -4,7 +4,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
+/*
+ * STILL IN PROGRESS
+ * 
+ */
 //If you wana sort in another way than natural order
 class StringLengthComparator implements Comparator<String>
 {
@@ -30,7 +33,6 @@ class StringLengthComparator implements Comparator<String>
 	}
 	
 }
-//10:50
 
 class ReverseAlphabeticalComparator implements Comparator<String>
 {
@@ -50,7 +52,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		
+		////////////////////// Sorting with Strings /////////////////////
 		
 		List<String> animals = new ArrayList<String>();
 		
@@ -88,7 +90,15 @@ public class App {
 		numbers.add(1);
 		
 		
-		Collections.sort(numbers);
+//		Collections.sort(numbers);
+		Collections.sort(numbers, new Comparator<Integer>() { // we could do this trough anonymous class
+
+			@Override
+			public int compare(Integer num1, Integer num2) {
+
+				return -num1.compareTo(num2);
+			}
+		});
 		
 		
 		
