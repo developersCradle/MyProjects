@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
-
+//09:00
 //<your class here>To which you want your class to compare>
 class Person implements Comparable<Person>
 {
@@ -51,8 +51,21 @@ class Person implements Comparable<Person>
 
 	@Override
 	public int compareTo(Person person) {
-		// TODO Auto-generated method stub
-		return 0;
+		int len1 = name.length();
+		int len2 = person.name.length();
+		
+		if (len1 > len2) {
+			return 1;
+		}
+		else if(len1 < len2)
+		{
+			return -1;
+		}
+		else {
+			return name.compareTo(person.name);
+		}
+		
+		
 	}
 }
 class App{
