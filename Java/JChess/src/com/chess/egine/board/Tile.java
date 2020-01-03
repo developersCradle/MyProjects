@@ -18,46 +18,47 @@ import com.google.common.collect.ImmutableMap;
  * Tile is numbered from 0 - 63
  */
 public abstract class Tile {
-	
+
 	protected final int tileCoordinate;
-	
+
 	/*
 	 * Caching empty tiles, Effective Java book immutable chapter with caching 
 	 */
-	private static final Map<Integer, EmptyTile> EMPTY_TILES = createAllPossibleEmptyTiles();
+	private static final Map<Integer, EmptyTile> EMPTY_TILES_CACHE = createAllPossibleEmptyTiles();
+
 	private Tile(int tileCoordinate) {
 		this.tileCoordinate = tileCoordinate;
 	}
-	
-	
+
 	private static Map<Integer, EmptyTile> createAllPossibleEmptyTiles() {
-		
+
 		final Map<Integer, EmptyTile> emptyTileMap = new HashMap<>();
 
 		for (int i = 0; i < 64; i++) {
 			emptyTileMap.put(i, new EmptyTile(i));
 		}
-		
+
+		// Could have also
+		//Collections.unmodifiableMap(emptyTileMap)  We could also use this from collection 
 		return ImmutableMap.copyOf(emptyTileMap);
 	}
 
-	public static Tile createTile(final int tileCoordinate, final Piece piece)
-	{
-		return piece != null ? new OccupiedTile(tileCoordinate, piece) : EMPTY_TILES.get(tileCoordinate);
+	public static Tile createTile(final int tileCoordinate, final Piece piece) {
+		return piece != null ? new OccupiedTile(tileCoordinate, piece) : EMPTY_TILES_CACHE.get(tileCoordinate);
 	}
 
 	public abstract boolean isTileOccupied();
-	
+
 	/*
 	 * Return piece from given tile
 	 * 	- Empty tile return null
 	 * 	- Occupied tile returns Piece
 	 */
 	public abstract Piece getPiece();
-	
-	public static final class EmptyTile extends Tile{
-		
-		EmptyTile(final int tileCoordinate) {
+
+	public static final class EmptyTile extends Tile {
+
+		private EmptyTile(final int tileCoordinate) {
 			super(tileCoordinate);
 		}
 
@@ -71,11 +72,10 @@ public abstract class Tile {
 			return null; // Null is empty
 		}
 	}
-	
-	public static final class OccupiedTile extends Tile
-	{
+
+	public static final class OccupiedTile extends Tile {
 		private final Piece pieceOnTile;
-		
+
 		public OccupiedTile(int tileCoordinate, Piece pieceOnTile) {
 			super(tileCoordinate);
 			this.pieceOnTile = pieceOnTile;
@@ -85,7 +85,7 @@ public abstract class Tile {
 		public boolean isTileOccupied() {
 			return true;
 		}
-		
+
 		@Override
 		public Piece getPiece() {
 			return this.pieceOnTile;
