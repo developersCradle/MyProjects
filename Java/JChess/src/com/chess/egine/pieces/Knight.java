@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.chess.egine.Alliance;
 import com.chess.egine.board.Board;
+import com.chess.egine.board.BoardUtils;
 import com.chess.egine.board.Move;
 import com.chess.egine.board.Tile;
 import com.google.common.collect.ImmutableList;
@@ -26,7 +27,7 @@ public class Knight extends Piece {
 		for (final int currentCandidate : CANDITATE_MOVE_COORDINATES) {
 			cadidateDestinationCoordinate = this.piecePosition + currentCandidate;
 
-			if (true) { /* isValidTuleCoordinate */
+			if (BoardUtils.isValidTileCoordinate(cadidateDestinationCoordinate)) {
 				final Tile candidateDestinationTile = board.getTile(cadidateDestinationCoordinate);
 				if (!candidateDestinationTile.isTileOccupied()) {
 					legalMoves.add(new Move()); // Adding non attacking legal move
@@ -41,4 +42,7 @@ public class Knight extends Piece {
 		}
 		return ImmutableList.copyOf(legalMoves);
 	}
+
+	private static boolen isFirstCol
+
 }
