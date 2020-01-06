@@ -1,6 +1,7 @@
 package com.chess.egine.pieces;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import com.chess.egine.Alliance;
@@ -19,15 +20,22 @@ public class Knight extends Piece {
 	}
 
 	@Override
-	public List<Move> calculteLegalMoves(Board board) {
+	public Collection<Move> calculteLegalMoves(Board board) {
 
-		int cadidateDestinationCoordinate;
 		final List<Move> legalMoves = new ArrayList();
 
-		for (final int currentCandidate : CANDITATE_MOVE_COORDINATES) {
-			cadidateDestinationCoordinate = this.piecePosition + currentCandidate;
+		for (final int currentCandidateOffset : CANDITATE_MOVE_COORDINATES) {
+			final int cadidateDestinationCoordinate = this.piecePosition + currentCandidateOffset;
+			if (BoardUtils.isValidTileCoordinate(cadidateDestinationCoordinate)) {//this method usefull to all classes
+				//if rule brakes down, we don't wana do rest of work
 
-			if (BoardUtils.isValidTileCoordinate(cadidateDestinationCoordinate)) {
+				if (isFirstColumnExclusion(this.piecePosition, currentCandidateOffset)
+						|| isSecondColumnExclusion(this.piecePosition, currentCandidateOffset)
+						|| isSeventhColumnExclusion(this.piecePosition, currentCandidateOffset)
+						|| isEightColumnExclusion(this.piecePosition, currentCandidateOffset)) {
+					continue;
+				}
+				
 				final Tile candidateDestinationTile = board.getTile(cadidateDestinationCoordinate);
 				if (!candidateDestinationTile.isTileOccupied()) {
 					legalMoves.add(new Move()); // Adding non attacking legal move
@@ -43,6 +51,28 @@ public class Knight extends Piece {
 		return ImmutableList.copyOf(legalMoves);
 	}
 
-	private static boolen isFirstCol
+	////////////////////EDGE CASES/////////////////////
+	//Edge cases, when unit is first column in chess board
+	private static boolean isFirstColumnExclusion(final int currentPosition, final int candidateOffset)
+	{
+		return BoardUtils.FIRST_COLUMN[currentPosition] && (candidateOffset == -17 || candidateOffset == -10 ||
+				candidateOffset == 6 || candidateOffset == 15);
+	}
+	//Edge cases, when unit is second column in chess board
+	private static boolean isSecondColumnExclusion(final int currentPosition, final int candidateOffset)
+	{
+		return BoardUtils.SECOND_COLUMN[currentPosition] && (candidateOffset == -10 || candidateOffset == 6);
+	}
+	//Edge cases, when unit is seventh column in chess board
+	private static boolean isSeventhColumnExclusion(final int currentPosition, final int candidateOffset)
+	{
+		return BoardUtils.SEVENTH_COLUMN[currentPosition] && (candidateOffset == 10 || candidateOffset == -6);
 
+	}
+	//Edge cases, when unit is eight column in chess board
+	private static boolean isEightColumnExclusion(final int currentPosition, final int candidateOffset) {
+		return BoardUtils.EIGHT_COLUMN[currentPosition] && (candidateOffset == -6 || candidateOffset == -15
+				|| candidateOffset == 17 || candidateOffset == 10);
+	}
+	////////////////////////END EDGE CASES///////////////////////
 }

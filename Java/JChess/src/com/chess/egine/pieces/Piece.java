@@ -1,6 +1,6 @@
 package com.chess.egine.pieces;
 
-import java.util.List;
+import java.util.Collection;
 
 import com.chess.egine.Alliance;
 import com.chess.egine.board.Board;
@@ -20,5 +20,5 @@ public abstract class Piece {
 		return this.pieceAlliance;
 	}
 
-	public abstract List<Move> calculteLegalMoves(final Board board);
+	public abstract Collection<Move> calculteLegalMoves(final Board board);
 }

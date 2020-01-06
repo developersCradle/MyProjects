@@ -38,7 +38,7 @@ public abstract class Tile {
 			emptyTileMap.put(i, new EmptyTile(i));
 		}
 
-		// Could have also
+		// Could have also used
 		//Collections.unmodifiableMap(emptyTileMap)  We could also use this from collection 
 		return ImmutableMap.copyOf(emptyTileMap);
 	}
