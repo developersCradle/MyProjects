@@ -6,8 +6,8 @@ Learning by doing projects
 ## Language
 
 [Java](https://github.com/developersCradle/MyProjects/tree/master/Java):
-* Become a Java Programmer ~ Learning Path [[Lynda](https://www.lynda.com/learning-paths/Developer/become-a-java-programmer) / [Linkedin](https://www.linkedin.com/learning/paths/become-a-java-programmer)]
-
+* Java Programming Masterclass for Software Developers [[Udemy](https://www.udemy.com/course/java-the-complete-java-developer-course/)]
+* Java In-Depth: Become a Complete Java Engineer! [[Udemy](https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/)]
 
 [Cpp](https://github.com/developersCradle/MyProjects/tree/master/Cpp):
 
@@ -26,6 +26,7 @@ Learning by doing projects
 
 
 ## Graphic
+
 * Add here stuff about graphics like OpenGL and DirectX
 
 ## Game
