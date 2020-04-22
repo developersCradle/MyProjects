@@ -11,7 +11,7 @@ Learning by doing projects
 
 [Cpp](https://github.com/developersCradle/MyProjects/tree/master/Cpp):
 
-* C++ Standard Library with Bo Qian [[Youtube](https://www.youtube.com/watch?v=Vc1RyqWFbiA&list=PL5jc9xFGsL8G3y3ywuFSvOuNm3GjBwdkb)]
+* Add stuff here
 
 ## Web development
 [WebDevBootcamp](https://github.com/developersCradle/MyProjects/tree/master/WebDevBootcamp/):
