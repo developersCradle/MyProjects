@@ -9,9 +9,9 @@ Learning by doing projects
 * Java Programming Masterclass for Software Developers [[Udemy](https://www.udemy.com/course/java-the-complete-java-developer-course/)]
 * Java In-Depth: Become a Complete Java Engineer! [[Udemy](https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/)]
 
-[Cpp](https://github.com/developersCradle/MyProjects/tree/master/Cpp):
+[Cpp](https://github.com/developersCradle/MyProjects/):
 
-* Add stuff here
+* Add stuff here. Update link when adding new content
 
 ## Web development
 [WebDevBootcamp](https://github.com/developersCradle/MyProjects/tree/master/WebDevBootcamp/):
