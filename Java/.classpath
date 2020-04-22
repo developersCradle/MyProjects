@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="DesignPatterns - Implementing observer/src"/>
+	<classpathentry kind="src" path="DesignPatterns - Observer/src"/>
+	<classpathentry kind="src" path="DesignPatterns - Singleton/src"/>
+	<classpathentry kind="src" path="DesignPatterns/src"/>
+	<classpathentry excluding="com/semanticsquare/oop/abstract/|com/semanticsquare/exercises/|com/semanticsquare/oop/interface/|com/semanticsquare/basics/" kind="src" path="Java In-Depth Become a Complete Java Engineer!/javaindepth/src"/>
+	<classpathentry kind="src" path="Java In-Depth Become a Complete Java Engineer!/javaindepth/src/com/semanticsquare/basics"/>
+	<classpathentry kind="src" path="Java In-Depth Become a Complete Java Engineer!/javaindepth/src/com/semanticsquare/exercises"/>
+	<classpathentry kind="src" path="Java In-Depth Become a Complete Java Engineer!/javaindepth/src/com/semanticsquare/oop/abstract"/>
+	<classpathentry kind="src" path="Java In-Depth Become a Complete Java Engineer!/javaindepth/src/com/semanticsquare/oop/interface"/>
+	<classpathentry kind="src" path="Java Tutorial for Complete Beginners/src"/>
+	<classpathentry kind="src" path="JChess/src"/>
+	<classpathentry kind="src" path="Telusko/JDBC/src"/>
+	<classpathentry kind="lib" path="JChess/guava-18.0.jar"/>
+	<classpathentry kind="output" path="Java In-Depth Become a Complete Java Engineer!/bin"/>
+</classpath>
