@@ -8,6 +8,7 @@ import com.chess.egine.Alliance;
 import com.chess.egine.board.Board;
 import com.chess.egine.board.BoardUtils;
 import com.chess.egine.board.Move;
+import com.chess.egine.board.Move.*;
 import com.chess.egine.board.Tile;
 import com.google.common.collect.ImmutableList;
 
@@ -20,14 +21,14 @@ public class Knight extends Piece {
 	}
 
 	@Override
-	public Collection<Move> calculteLegalMoves(Board board) {
+	public Collection<Move> calculteLegalMoves(final Board board) {
 
 		final List<Move> legalMoves = new ArrayList();
 
 		for (final int currentCandidateOffset : CANDITATE_MOVE_COORDINATES) {
-			final int cadidateDestinationCoordinate = this.piecePosition + currentCandidateOffset;
-			if (BoardUtils.isValidTileCoordinate(cadidateDestinationCoordinate)) {//this method usefull to all classes
-				//if rule brakes down, we don't wana do rest of work
+			final int candidateDestinationCoordinate = this.piecePosition + currentCandidateOffset;
+			//if rule brakes down, we don't wana do rest of work
+			if (BoardUtils.isValidTileCoordinate(candidateDestinationCoordinate)) {//this method useful to all classes
 
 				if (isFirstColumnExclusion(this.piecePosition, currentCandidateOffset)
 						|| isSecondColumnExclusion(this.piecePosition, currentCandidateOffset)
@@ -36,14 +37,14 @@ public class Knight extends Piece {
 					continue;
 				}
 				
-				final Tile candidateDestinationTile = board.getTile(cadidateDestinationCoordinate);
+				final Tile candidateDestinationTile = board.getTile(candidateDestinationCoordinate);
 				if (!candidateDestinationTile.isTileOccupied()) {
-					legalMoves.add(new Move()); // Adding non attacking legal move
+					legalMoves.add(new MajorMove(board,this,candidateDestinationCoordinate)); // Adding non attacking legal move
 				} else {
 					final Piece pieceAtDestination = candidateDestinationTile.getPiece();
 					final Alliance pieceAlliance = pieceAtDestination.getPieaceAlliance();
 					if (this.pieceAlliance != pieceAlliance) {
-						legalMoves.add(new Move());
+						legalMoves.add(new AttackMove(board, this, candidateDestinationCoordinate, pieceAtDestination));
 					}
 				}
 			}
