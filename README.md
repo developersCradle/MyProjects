@@ -44,5 +44,8 @@ Learning by doing projects and different tutorials
 ## Others
 [Others](https://github.com/developersCradle/MyProjects/tree/master/Others):
 
+* Git Complete: The definitive, step-by-step guide to Git  - [[Udemy](https://www.udemy.com/course/git-complete/)]
 * JUnit and Mockito Crash Course - [[Udemy](https://www.udemy.com/course/junitandmockitocrashcourse/)]
+
+
 
