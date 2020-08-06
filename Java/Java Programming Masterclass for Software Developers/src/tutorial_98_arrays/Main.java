@@ -2,8 +2,11 @@ package tutorial_98_arrays;
 
 import java.util.Scanner;
 
+
 public class Main {
 
+
+	
 	private static Scanner scanner = new Scanner(System.in);
 
 	public static void main(String[] args) {
@@ -34,5 +37,12 @@ public class Main {
 
 		return (double) sum / (double) array.length;
 
-	}
 }
+}
+
+	
+
+	
+	
+	
+
