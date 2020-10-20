@@ -13,7 +13,7 @@ Refining my Java skils.
 - [ ] 06 - OOP Part 1 - Classes, Constructors and Inheritance
 - [ ] 07 - 
 - [o] 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
-- [ ] 09 - 
+- [x] 09 - Inner and Abstract Classes & Interfaces
 - [ ] 10 -
 - [ ] 11 - 
 - [ ] 12 - 

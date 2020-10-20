@@ -1,4 +1,4 @@
-package tutorial_139_our_generic_class_Challenge;
+package tutorial_139_our_generic_class_challenge;
 
 public class BaseballPlayer extends Player{
 
