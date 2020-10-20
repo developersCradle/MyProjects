@@ -1,4 +1,4 @@
-package tutorial_150_final_statement;
+package tutorial_151_final_statement_part2.copy;
 
 // Marking class as final, we can prevent class form subclassed 
 //public class Main extends Math { 
@@ -17,7 +17,8 @@ public class Main {
     	
     	
     	int pw = 674312;
-    	Password password = new Password(pw);
+    	Password password = new ExtendedPassword(pw);
+//    	Password password = new Password(pw);
     	password.storePassword();
     	
     	
@@ -31,5 +32,14 @@ public class Main {
     	
 //    	Math m = new Math(); //private constructor, enforcing class not to be instanced
 // 		
+        
+        
+        
+        
+        System.out.println("Main method called");
+        SIBTest test = new SIBTest();
+        test.someMethod();
+        System.out.println("Owner is " + SIBTest.owner);
+        
     }
 }
