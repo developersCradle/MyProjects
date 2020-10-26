@@ -1,4 +1,4 @@
-package tutorial_151_final_statement_part2.copy;
+package tutorial_151_final_statement_part2;
 
 // Marking class as final, we can prevent class form subclassed 
 //public class Main extends Math { 

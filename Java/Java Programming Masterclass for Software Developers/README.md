@@ -10,15 +10,16 @@ Refining my Java skils.
 - [ ] 03 - First Steps
 - [ ] 04 - Java Tutorial: Expressions, Statements, Code blocks, Methods and more
 - [ ] 05 - Control Flow Statements
-- [ ] 06 - OOP Part 1 - Classes, Constructors and Inheritance
-- [ ] 07 - 
+- [o] 06 - OOP Part 1 - Classes, Constructors and Inheritance
+- [o] 07 - OOP Part 2 - Composition, Encapsulation, and Polymorphism
 - [o] 08 - Arrays, Java inbuilt Lists, Autoboxing and Unboxing
 - [x] 09 - Inner and Abstract Classes & Interfaces
-- [ ] 10 -
-- [ ] 11 - 
-- [ ] 12 - 
-- [ ] 13 - 
-- [ ] 14 - 
+- [x] 10 - Java Generics
+- [o] 11 - Naming Conventions and Packages. static and final keywords
+- [o] 12 - Java Collections
+- [ ] 13 - JavaFX
+- [ ] 14 - Basic Input & Output including java.util
+- [ ] 15 - Concurrency in Java
 - [ ] 16 - 
 - [ ] 17 - 
 - [ ] 18 - 

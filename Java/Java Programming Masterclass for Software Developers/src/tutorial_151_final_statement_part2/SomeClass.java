@@ -1,4 +1,4 @@
-package tutorial_151_final_statement_part2.copy;
+package tutorial_151_final_statement_part2;
 
 public class SomeClass {
 	
