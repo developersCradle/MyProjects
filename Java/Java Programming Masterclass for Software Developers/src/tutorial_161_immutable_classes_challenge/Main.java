@@ -1,4 +1,4 @@
-package tutorial_160_immutable_classes;
+package tutorial_161_immutable_classes_challenge;
 
 
 import java.util.HashMap;
@@ -15,6 +15,8 @@ public class Main {
 	    Map<String, Integer> tempExit = new HashMap<String, Integer>();
         locations.put(0, new Location(0, "You are sitting in front of a computer learning Java", tempExit));
         
+        
+        locations.put(0, new Location(0, "You are sitting in front of a computer learning Java", null));
         //ROOM 1
         tempExit = new HashMap<String, Integer>();
         tempExit.put("W", 2);
