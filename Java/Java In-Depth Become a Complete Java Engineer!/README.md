@@ -1,6 +1,5 @@
 ## Java In-Depth Become a Complete Java Engineer!
 ![JAVA ENGINEER](pic.jpg)
-
 Boosting my Java skils.
 
 ## Progress
