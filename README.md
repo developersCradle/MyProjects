@@ -1,6 +1,8 @@
 My Projects
 ===========
 
+Refactor projects out of this huge repositery
+
 Learning by doing projects and different tutorials
 
 ## Language
