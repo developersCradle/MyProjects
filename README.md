@@ -5,19 +5,6 @@ Refactor projects out of this huge repositery
 
 Learning by doing projects and different tutorials
 
-## Language
-[Java](https://github.com/developersCradle/MyProjects/tree/master/Java):
-
-* Java In-Depth: Become a Complete Java Engineer! [[Udemy](https://www.udemy.com/course/java-in-depth-become-a-complete-java-engineer/)]
-
-[Cpp](https://github.com/developersCradle/MyProjects/):
-
-* Add stuff here. Update link when adding new content
-
-## Web development
-[WebDevBootcamp](https://github.com/developersCradle/MyProjects/tree/master/WebDevBootcamp/):
-
-* The Web Developer Bootcamp with Colt [[Udemy](https://www.udemy.com/the-web-developer-bootcamp/)]
 
 [GWT](https://github.com/developersCradle/MyProjects/tree/master/Gwt):
 
